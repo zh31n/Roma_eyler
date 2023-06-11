@@ -1,0 +1,28 @@
+.modal{
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  transform: scale(0);
+
+}
+
+.modalInner{
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.modal.active{
+  transform: scale(1);
+}
+
+.inputM{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
